@@ -48,13 +48,13 @@ align-items: center;
     visibility:hidden;
     border: 3px solid hwb(194 57% 9%);
     width: 20vw;
-    height: 20vh;
+    height: 10vh;
     text-align: center;
     cursor: pointer;
     display:flex;
     justify-content:center;
     align-items:center;
-    font-size: 2em;
+    font-size: 1.5em;
     box-shadow: 0px 0px 20px 10px #dfe7ae; 
 }
 #restart, #getting-started:active {
@@ -62,6 +62,17 @@ align-items: center;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+#human, #enemy{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px #f541b0;
+}
+#enemy{
+    color: red;
+}
 .nameBox{
     border: 1px solid black;
     width: 25vw;
@@ -126,4 +137,9 @@ align-items: center;
     font-size: 1.5em;
     box-shadow: 0px 0px 20px 10px white;
 
+}
+#message{
+    text-align: center;
+    color: #65f541;
+    text-shadow: 2px 2px #9c147a;
 }
